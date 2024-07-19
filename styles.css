@@ -1,0 +1,137 @@
+/*Reset browser preset stylings*/
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    
+    max-height: 200px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+/*nav session*/
+nav{
+    background-color: blue;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2px;
+
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    background-color: black;
+}
+
+/*home page*/
+
+
+#home-page{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+#home-page h1{
+    line-height: 30px;
+    text-align: center;
+}
+
+#home-page span{
+    font-size: 15px;
+    line-height: 30px;
+}
+
+#about{
+    margin-top:30px ;
+    background-color: rgb(37, 37, 141);
+    line-height: 30px;
+}
+
+#about h2{
+    text-align: center;
+
+}
+#about p{
+     text-align: center;
+}
+
+
+/*skills*/
+
+
+#skills-section h2 {
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+#skills-section ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/*contact me*/
+
+#contact-me{
+    background-color: blue;
+    margin-top: 60px;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-me h2{
+    color: white;
+    font-size: 40px;
+}
+
+#contact-me h3{
+    text-align: center;
+}
+
+#contact-me form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#contact-me form label{
+    font-size: 18px;
+}
+
+#contact-me form input, #contact-me form textarea{
+    padding: 10px 12px;
+    border: orange;
+    border-radius: 4px;
+}
+
+#contact-me form button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 12px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
